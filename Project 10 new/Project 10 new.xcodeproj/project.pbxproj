@@ -13,6 +13,8 @@
 		324371D82980535000491564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324371D62980535000491564 /* Main.storyboard */; };
 		324371DA2980535100491564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324371D92980535100491564 /* Assets.xcassets */; };
 		324371DD2980535100491564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324371DB2980535100491564 /* LaunchScreen.storyboard */; };
+		324371E5298089E900491564 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324371E4298089E900491564 /* PersonCell.swift */; };
+		324371E72980B11A00491564 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324371E62980B11A00491564 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		324371D92980535100491564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324371DC2980535100491564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		324371DE2980535100491564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324371E4298089E900491564 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		324371E62980B11A00491564 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				324371D02980535000491564 /* AppDelegate.swift */,
 				324371D22980535000491564 /* SceneDelegate.swift */,
 				324371D42980535000491564 /* ViewController.swift */,
+				324371E62980B11A00491564 /* Person.swift */,
 				324371D62980535000491564 /* Main.storyboard */,
+				324371E4298089E900491564 /* PersonCell.swift */,
 				324371D92980535100491564 /* Assets.xcassets */,
 				324371DB2980535100491564 /* LaunchScreen.storyboard */,
 				324371DE2980535100491564 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324371E72980B11A00491564 /* Person.swift in Sources */,
 				324371D52980535000491564 /* ViewController.swift in Sources */,
 				324371D12980535000491564 /* AppDelegate.swift in Sources */,
+				324371E5298089E900491564 /* PersonCell.swift in Sources */,
 				324371D32980535000491564 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
